@@ -21,10 +21,6 @@ public class MainJsoup {
 		MainJsoup mainJsoup = new MainJsoup();
 		mainJsoup.parse("http://www.internet4classrooms.com/science.htm");
 
-		/*for (DBEntry db : data) {
-			System.out.println(db.lesson_link + " time: " + db.time_scraped);
-		}*/
-
 		StoreData storeData = new StoreData(data);
 		storeData.action();
 	}
